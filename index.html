@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Navy Trivia</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/flickity.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+	
+	<header class="screen-categories screen header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-2"><a href="#" class="nav-stats"><i class="triviaIcon-graph"></i></a></div>
+				<div class="col-xs-8 header-title">
+					Choose a Topic
+				</div>
+				<div class="col-xs-2 text-right"><a href="#" class="nav-achievements"><i class="triviaIcon-star"></i></a></div>
+			</div>
+		</div>
+	</header>
+	<div class="screen screen-categories">
+		<div class="categories-filter">
+			<div class="dropdown">
+				<select class="tag-select dropdown-select"></select>
+			</div>
+		</div>
+		
+
+		<div class="categories-list">
+			
+		</div>
+
+		<div id="version"></div>
+
+	</div>
+
+	<header class="screen-achievements screen header" style="display:none;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3"><a href="#" class="nav-back"><i class="triviaIcon-back"></i></a></div>
+				<div class="col-xs-6 header-title">
+					Achievements
+				</div>
+				<div class="col-xs-3"></div>
+			</div>
+		</div>
+	</header>
+	<div class="screen screen-achievements" style="display:none;">
+		
+		<div class="achievements-list">
+			
+		</div>
+
+	</div>
+
+	<header class="screen-stats screen header" style="display:none;">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-3"><a href="#" class="nav-categories"><i class="triviaIcon-back"></i></a></div>
+				<div class="col-xs-6 header-title">
+					Statistics
+				</div>
+				<div class="col-xs-3"></div>
+			</div>
+		</div>
+	</header>
+	<div class="screen screen-stats" style="display:none;">
+		<div class="stats-cumulative">
+			<h5>Questions Completed</h5>
+			<div class="stats-questions-completed"><div class="stats-questions-completed-inner"></div></div>
+
+			<div class="stats-cumulative-stats">
+				<div class="stats-cumulative-stat">
+					<h1 class="stats-cumulative-stat-played">
+						
+					</h1>
+					<h4 class="stats-cumulative-stat-label">
+						Times Played
+					</h4>
+				</div>
+
+				<div class="stats-cumulative-stat">
+					<h1 class="stats-cumulative-stat-achievements">
+						
+					</h1>
+					<h4 class="stats-cumulative-stat-label">
+						Achievements
+					</h4>
+				</div>
+
+				<div class="stats-cumulative-stat">
+					<h1 class="stats-cumulative-stat-perfect">
+						
+					</h1>
+					<h4 class="stats-cumulative-stat-label">
+						Perfect Scores
+					</h4>
+				</div>
+
+				<div class="stats-cumulative-stat">
+					<h1 class="stats-cumulative-stat-completed">
+						
+					</h1>
+					<h4 class="stats-cumulative-stat-label">
+						Topics Completed
+					</h4>
+				</div>
+			</div>
+		</div>
+
+		<a href="#" class="stats-reset" style="display:none;">Reset Data</a>
+		
+		<div class="stats-achievements">
+			<h2>Recent Achievements</h2>
+			<div class="stats-latest-achievements-list"></div>
+			<a href="#" class="btn btn-secondary nav-achievements pull-right">View All</a>
+		</div>
+		
+
+		<div class="stats-categories">
+			<h2>Performance by topic</h2>
+			<div class="stats-categories-list"></div>
+		</div>
+
+		
+
+	</div>
+
+	<div class="screen screen-game" style="display:none;">
+		
+		<div class="game-timer-bar"><div class="game-timer-bar-inner"></div></div>
+		<div class="game-timer">
+			<h3 style="display:none;">Time Left</h3>
+			<span class="game-timer-time" style="display:none;"></span>
+		</div>
+		<div class="game-data clearfix">
+			<h3 class="game-category" style="display:none;"></h3>
+			<div class="game-question-wrapper">
+				<h2 class="game-question"></h2>
+			</div>
+			
+			<div class="game-image" style="display:none;">
+				<h2 class="game-question"></h2>
+			</div>
+
+			<div class="game-answers">
+
+			</div>
+
+			<div class="game-progress-dots">
+				
+			</div>
+		</div>
+	</div>   
+
+	<header class="screen-end screen header" style="display:none;">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 header-title">
+					Your Results
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="screen screen-end" style="display:none;">
+
+		<div class="end-scores">
+			<div class="end-score-wrapper">
+				<h1 class="correct-score"></h1>
+				<div class="end-score-label"><span class="correct-score-count"></span>/<span class="correct-score-total"></span> Correct</div>
+			</div>
+			<div class="end-score-wrapper">
+				<h1 class="end-score"></h1>
+				<div class="end-score-label">Your Score</div>
+			</div>
+			<div class="end-score-wrapper">
+				<h1 class="bonus-score"></h1>
+				<div class="end-score-label">Time Bonus</div>
+			</div>
+			
+		</div>
+
+		<div class="end-history-wrapper">
+			<h3>Questions Review</h3>
+			<div class="end-history" style="opacity:0;">
+				
+			</div>
+		</div>
+		
+		<div class="end-footer">
+			<a href="#" class="btn-restart btn btn-primary">Try Again</a>
+			<a href="#" class="btn-gameover btn btn-primary">Quit</a>	
+		</div>
+		
+
+		
+	</div>
+
+
+	<!-- Categories Modal  !!! nofade class enables custom animation -->
+	<div class="modal fade" id="categoriesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<a href="#" class="btn-close" data-dismiss="modal"><i class="triviaIcon-x"></i></a>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="modal-categories-list">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Achievements Modal -->
+	<div class="modal fade" id="achievementsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<a href="#" class="btn-close" data-dismiss="modal"><i class="triviaIcon-x"></i></a>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="modal-achievements-list">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+		<div class="confetti"></div>
+	</div>
+
+	<script src="js/vendor/jquery-1.11.0.min.js"></script>
+	<script src="cordova.js"></script>
+
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

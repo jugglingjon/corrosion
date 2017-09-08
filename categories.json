@@ -1,0 +1,778 @@
+{
+	"stats":
+		{
+			"gamesPlayed":0,
+			"cumulativeScore":0,
+			"bonusScore":0,
+			"correctScore":0,
+			"perfectGames":0,
+			"fastAnswers":0
+		},
+	"achievements":
+		[
+			{
+				"title":"Resolute",
+				"slug": "resolute",
+				"description": "3 consecutive games within a single topic",
+				"image": true,
+				"criteria":{
+					"stat": "$consecutiveGames",
+					"operator": ">=",
+					"threshold": 3
+				}
+			},
+			{
+				"title":"Dogged",
+				"slug": "dogged",
+				"description": "6 consecutive games within a single topic",
+				"image": true,
+				"criteria":{
+					"stat": "$consecutiveGames",
+					"operator": ">=",
+					"threshold": 6
+				}
+			},
+			{
+				"title":"Frogman",
+				"slug": "frogman",
+				"description": "5,000 points within a single topic",
+				"image": true,
+				"criteria":{
+					"stat": "$categories[$currentCategory].cumulativeScore",
+					"operator": ">=",
+					"threshold": 5000
+				}
+			},
+			{
+				"title":"Diver",
+				"slug": "diver",
+				"description": "10,000 points within a single topic",
+				"image": true,
+				"criteria":{
+					"stat": "$categories[$currentCategory].cumulativeScore",
+					"operator": ">=",
+					"threshold": 10000
+				}
+			},
+			{
+				"title":"Aquanaut",
+				"slug": "aquanaut",
+				"description": "20,000 points within a single topic",
+				"image": true,
+				"criteria":{
+					"stat": "$categories[$currentCategory].cumulativeScore",
+					"operator": ">=",
+					"threshold": 20000
+				}
+			},
+			{
+				"title":"Patrol",
+				"slug": "patrol",
+				"description": "Overall score of 20,000 points",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.cumulativeScore",
+					"operator": ">=",
+					"threshold": 20000
+				}
+			},
+			{
+				"title":"Task Force",
+				"slug": "taskForce",
+				"description": "Overall score of 50,000 points",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.cumulativeScore",
+					"operator": ">=",
+					"threshold": 50000
+				}
+			},
+			{
+				"title":"Fleet",
+				"slug": "fleet",
+				"description": "Overall score of 100,000 points",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.cumulativeScore",
+					"operator": ">=",
+					"threshold": 100000
+				}
+			},
+			{
+				"title":"Seaman",
+				"slug": "seaman",
+				"description": "Complete your first game",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.gamesPlayed",
+					"operator": ">=",
+					"threshold": 1
+				}
+			},
+			{
+				"title":"Petty Officer",
+				"slug": "pettyOfficer",
+				"description": "Play 20 games",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.gamesPlayed",
+					"operator": ">=",
+					"threshold": 20
+				}
+			},
+			{
+				"title":"Chief",
+				"slug": "chief",
+				"description": "Play 40 games",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.gamesPlayed",
+					"operator": ">=",
+					"threshold": 40
+				}
+			},
+			{
+				"title":"Master Chief",
+				"slug": "masterChief",
+				"description": "Play 60 games",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.gamesPlayed",
+					"operator": ">=",
+					"threshold": 60
+				}
+			},
+			{
+				"title":"Bronze Anchor",
+				"slug": "bronze",
+				"description": "1 perfect score game",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.perfectGames",
+					"operator": ">=",
+					"threshold": 1
+				}
+			},
+			{
+				"title":"Silver Anchor",
+				"slug": "silver",
+				"description": "5 perfect score games",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.perfectGames",
+					"operator": ">=",
+					"threshold": 5
+				}
+			},
+			{
+				"title":"Gold Anchor",
+				"slug": "gold",
+				"description": "10 perfect score games",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.perfectGames",
+					"operator": ">=",
+					"threshold": 10
+				}
+			},
+			{
+				"title":"Sailboat",
+				"slug": "sailboat",
+				"description": "3 questions correct in under 5 seconds",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.fastAnswers",
+					"operator": ">=",
+					"threshold": 3
+				}
+			},
+			{
+				"title":"Cruiser",
+				"slug": "cruiser",
+				"description": "5 questions correct in under 5 seconds",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.fastAnswers",
+					"operator": ">=",
+					"threshold": 5
+				}
+			},
+			{
+				"title":"Torpedo",
+				"slug": "torpedo",
+				"description": "10 questions correct in under 5 seconds",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.fastAnswers",
+					"operator": ">=",
+					"threshold": 10
+				}
+			},
+			{
+				"title":"Spruce Goose",
+				"slug": "spruce",
+				"description": "Earn 500 bonus points",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.bonusScore",
+					"operator": ">=",
+					"threshold": 500
+				}
+			},
+			{
+				"title":"High Flyer",
+				"slug": "highFlyer",
+				"description": "Earn 1,000 bonus points",
+				"image": true,
+				"criteria":{
+					"stat": "$data.stats.bonusScore",
+					"operator": ">=",
+					"threshold": 1000
+				}
+			},		
+			{
+				"title":"Corrosive",
+				"slug": "corrosion",
+				"description": "Correctly answer all questions in Corrosion",
+				"image": true,
+				"criteria":{
+					"stat": "isComplete('corrosion').boolean",
+					"operator": "===",
+					"threshold": true
+				}
+			}
+		]
+	,
+	"categories":[
+		{
+			"title": "Corrosion",
+			"slug": "corrosion",
+			"image": true,
+			"description": "About corrosion.",
+			"tags":[
+			],
+			"highScore": 0,
+			"lastScore": 0,
+			"cumulativeScore":0,
+			"played":0,
+			"questions":[
+				{
+				"question":"Which metal is most susceptible to corrosive attack?",
+				"answers":[
+					{"correct":true,"answer":"Aluminum"},
+					{"answer":"Titanium"},
+					{"answer":"Lead"},
+					{"answer":"Platinum"}
+				]
+				},
+				{
+				"question":"What does corrosion on aluminum alloys look like?",
+				"answers":[
+					{"correct":true,"answer":"White-gray powder"},
+					{"answer":"Red-brown rust "},
+					{"answer":"Black stain"},
+					{"answer":"Colored surface"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"1.png",
+				"answers":[
+					{"correct":true,"answer":"Aluminum "},
+					{"answer":"Magnesium "},
+					{"answer":"Carbon steels "},
+					{"answer":"Stainless steels"}
+				]
+				},
+				{
+				"question":"What does corrosion on magnesium alloys look like?",
+				"answers":[
+					{"correct":true,"answer":"Snow-like mounds"},
+					{"answer":"Red-brown rust"},
+					{"answer":"Rough stained surface"},
+					{"answer":"Green powdery deposit"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"2.png",
+				"answers":[
+					{"correct":true,"answer":"Magnesium "},
+					{"answer":"Aluminum "},
+					{"answer":"Carbon steels "},
+					{"answer":"Stainless steels"}
+				]
+				},
+				{
+				"question":"What does corrosion on carbon steels look like?",
+				"answers":[
+					{"correct":true,"answer":"Red-brown rust "},
+					{"answer":"Snow-like mounds"},
+					{"answer":"Rough stained surface"},
+					{"answer":"Green powdery deposit"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"3.png",
+				"answers":[
+					{"correct":true,"answer":"Carbon steels "},
+					{"answer":"Magnesium "},
+					{"answer":"Aluminum "},
+					{"answer":"Stainless steels"}
+				]
+				},
+				{
+				"question":"What does corrosion on stainless steels look like?",
+				"answers":[
+					{"correct":true,"answer":"Rough stained surface "},
+					{"answer":"Red-brown rust"},
+					{"answer":"Snow-like mounds"},
+					{"answer":"Blistering"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"4.png",
+				"answers":[
+					{"correct":true,"answer":"Stainless steels"},
+					{"answer":"Carbon steels "},
+					{"answer":"Magnesium "},
+					{"answer":"Aluminum "}
+				]
+				},
+				{
+				"question":"What does corrosion on titanium alloys look like?",
+				"answers":[
+					{"correct":true,"answer":"Colored surface "},
+					{"answer":"Red-brown rust "},
+					{"answer":"Black stain"},
+					{"answer":"White-gray powder"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"5.png",
+				"answers":[
+					{"correct":true,"answer":"Titanium alloys"},
+					{"answer":"Stainless steels"},
+					{"answer":"Carbon steels "},
+					{"answer":"Magnesium "}
+				]
+				},
+				{
+				"question":"What does corrosion on cadmium look like?",
+				"answers":[
+					{"correct":true,"answer":"White mounds "},
+					{"answer":"Red-brown rust"},
+					{"answer":"Black stain"},
+					{"answer":"Green mounds"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"6.png",
+				"answers":[
+					{"correct":true,"answer":"Cadmium "},
+					{"answer":"Stainless steels"},
+					{"answer":"Carbon steels "},
+					{"answer":"Magnesium"}
+				]
+				},
+				{
+				"question":"What does corrosion on nickel alloys look like?",
+				"answers":[
+					{"correct":true,"answer":"Green powdery deposit "},
+					{"answer":"Snow-like mounds"},
+					{"answer":"Rough stained surface"},
+					{"answer":"Red-brown rust"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"7.png",
+				"answers":[
+					{"correct":true,"answer":"Nickel alloys"},
+					{"answer":"Stainless steels"},
+					{"answer":"Carbon steels "},
+					{"answer":"Magnesium"}
+				]
+				},
+				{
+				"question":"What does corrosion on copper alloys look like?",
+				"answers":[
+					{"correct":true,"answer":"Gray-green patina"},
+					{"answer":"Red-brown rust "},
+					{"answer":"Black stain"},
+					{"answer":"White-gray powder"}
+				]
+				},
+				{
+				"question":"What type of alloy is corroded?",
+				"image":"8.png",
+				"answers":[
+					{"correct":true,"answer":"Copper alloys "},
+					{"answer":"Stainless steels"},
+					{"answer":"Carbon steels "},
+					{"answer":"Magnesium"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"9.png",
+				"answers":[
+					{"correct":true,"answer":"Pitting"},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"},
+					{"answer":"Exfoliation"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"10.png",
+				"answers":[
+					{"correct":true,"answer":"Surface"},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"},
+					{"answer":"Exfoliation "}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"11.png",
+				"answers":[
+					{"correct":true,"answer":"Galvanic "},
+					{"answer":"Surface"},
+					{"answer":"Intergranular"},
+					{"answer":"Exfoliation"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"12.png",
+				"answers":[
+					{"correct":true,"answer":"Intergranular "},
+					{"answer":"Galvanic"},
+					{"answer":"Surface"},
+					{"answer":"Exfoliation"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"13.png",
+				"answers":[
+					{"correct":true,"answer":"Exfoliation "},
+					{"answer":"Erosion"},
+					{"answer":"Intergranular"},
+					{"answer":"Surface "}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"14.png",
+				"answers":[
+					{"correct":true,"answer":"Crevice "},
+					{"answer":"Surface "},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"15.png",
+				"answers":[
+					{"correct":true,"answer":"Filiform "},
+					{"answer":"Surface "},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"16.png",
+				"answers":[
+					{"correct":true,"answer":"Erosion "},
+					{"answer":"Surface "},
+					{"answer":"Filiform"},
+					{"answer":"Hot corrosion"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"17.png",
+				"answers":[
+					{"correct":true,"answer":"Fretting "},
+					{"answer":"Filiform"},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"18.png",
+				"answers":[
+					{"correct":true,"answer":"Hot corrosion "},
+					{"answer":"Fretting"},
+					{"answer":"Galvanic"},
+					{"answer":"Erosion"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"19.png",
+				"answers":[
+					{"correct":true,"answer":"Hydrogen embrittlement "},
+					{"answer":"Surface "},
+					{"answer":"Galvanic"},
+					{"answer":"Crevice"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"20.png",
+				"answers":[
+					{"correct":true,"answer":"Corrosion fatigue "},
+					{"answer":"Hydrogen embrittlement"},
+					{"answer":"Galvanic"},
+					{"answer":"Crevice"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"21.png",
+				"answers":[
+					{"correct":true,"answer":"Crevice "},
+					{"answer":"Surface "},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"22.png",
+				"answers":[
+					{"correct":true,"answer":"Filiform "},
+					{"answer":"Surface "},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"23.png",
+				"answers":[
+					{"correct":true,"answer":"Erosion "},
+					{"answer":"Surface "},
+					{"answer":"Filiform"},
+					{"answer":"Galvanic"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"24.png",
+				"answers":[
+					{"correct":true,"answer":"Fretting "},
+					{"answer":"Filiform"},
+					{"answer":"Galvanic"},
+					{"answer":"Intergranular"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"25.png",
+				"answers":[
+					{"correct":true,"answer":"Hot corrosion "},
+					{"answer":"Fretting"},
+					{"answer":"Galvanic"},
+					{"answer":"Erosion"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"26.png",
+				"answers":[
+					{"correct":true,"answer":"Stress "},
+					{"answer":"Fretting "},
+					{"answer":"Galvanic"},
+					{"answer":"Crevice"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"27.png",
+				"answers":[
+					{"correct":true,"answer":"Surface "},
+					{"answer":"Erosion"},
+					{"answer":"Filiform"},
+					{"answer":"Galvanic"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"28.png",
+				"answers":[
+					{"correct":true,"answer":"Galvanic "},
+					{"answer":"Filiform"},
+					{"answer":"Fretting"},
+					{"answer":"Intergranular"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"29.png",
+				"answers":[
+					{"correct":true,"answer":"Hydrogen Embrittlement "},
+					{"answer":"Fretting"},
+					{"answer":"Galvanic"},
+					{"answer":"Erosion"}
+				]
+				},
+				{
+				"question":"What type of corrosion is this?",
+				"image":"30.png",
+				"answers":[
+					{"correct":true,"answer":"Erosion "},
+					{"answer":"Fretting "},
+					{"answer":"Galvanic"},
+					{"answer":"Crevice"}
+				]
+				},
+				{
+				"question":"At a minimum, how often must aircraft be cleaned?",
+				"answers":[
+					{"correct":true,"answer":"Every 14 days "},
+					{"answer":"Every 7 days"},
+					{"answer":"Every 21 days"},
+					{"answer":"Every 3 days"}
+				]
+				},
+				{
+				"question":"Which Corrosion Preventive Compound is used particularly on moving or sliding parts where some lubrication is needed?",
+				"answers":[
+					{"correct":true,"answer":"MIL-PRF-81309 Type II"},
+					{"answer":"MIL-PRF-16173 Grade 1"},
+					{"answer":"MIL-PRF-16173 Grade 4"},
+					{"answer":"MIL-DTL-85054 Type I"}
+				]
+				},
+				{
+				"question":"Which Corrosion Preventive Compound is primarily used on avionics and electronic equipment?",
+				"answers":[
+					{"correct":true,"answer":"MIL-PRF-81309 Type III"},
+					{"answer":"MIL-PRF-16173 Grade 1"},
+					{"answer":"MIL-PRF-16173 Grade 4"},
+					{"answer":"MIL-DTL-85054 Type I"}
+				]
+				},
+				{
+				"question":"Which Corrosion Preventive Compound offers the most corrosion protection?",
+				"answers":[
+					{"correct":true,"answer":"MIL-PRF-16173 Grade 1"},
+					{"answer":"MIL-PRF-16173 Grade 4"},
+					{"answer":"MIL-DTL-85054 Type I"},
+					{"answer":"MIL-PRF-81309 Type III"}
+				]
+				},
+				{
+				"question":"Which Corrosion Preventive Compound protects metal surfaces during indoor storage when a transparent coating is required?",
+				"answers":[
+					{"correct":true,"answer":"MIL-PRF-16173 Grade 4"},
+					{"answer":"MIL-PRF-16173 Grade 1"},
+					{"answer":"MIL-DTL-85054 Type I"},
+					{"answer":"MIL-PRF-81309 Type II"}
+				]
+				},
+				{
+				"question":"Which Corrosion Preventive Compound is intended for use as a protective coating until painting is practical?",
+				"answers":[
+					{"correct":true,"answer":"MIL-DTL-85054"},
+					{"answer":"MIL-PRF-16173 Grade 1"},
+					{"answer":"MIL-PRF-16173 Grade 4 "},
+					{"answer":"MIL-PRF-81309 Type II"}
+				]
+				},
+				{
+				"question":"Which Sealant is intended for cabin pressure sealing?",
+				"answers":[
+					{"correct":true,"answer":"AMS 3265"},
+					{"answer":"AMS 3374"},
+					{"answer":"AMS 3284"},
+					{"answer":"MIL-A-46146"}
+				]
+				},
+				{
+				"question":"Which Sealant is primarily used for fuel tank sealing?",
+				"answers":[
+					{"correct":true,"answer":"AMS 3276"},
+					{"answer":"AMS 3265"},
+					{"answer":"AMS 3284"},
+					{"answer":"AMS-S-83318"}
+				]
+				},
+				{
+				"question":"Which Sealant is convenient for use with sensitive metals and electronic equipment?",
+				"answers":[
+					{"correct":true,"answer":"MIL-A-46146"},
+					{"answer":"AMS 3374"},
+					{"answer":"AMS 3284"},
+					{"answer":"MIL-PRF-81733"}
+				]
+				},
+				{
+				"question":"Which Sealant is used on firewall structures exposed to very high temperatures?",
+				"answers":[
+					{"correct":true,"answer":"AMS 3374 "},
+					{"answer":"AMS 3284 "},
+					{"answer":"MIL-A-46146"},
+					{"answer":"AMS-S-8802"}
+				]
+				},
+				{
+				"question":"What is the primary factor to consider when selecting materials for constructing an aircraft?",
+				"answers":[
+					{"correct":true,"answer":"Weight-to-strength ration"},
+					{"answer":"Metal corrosion"},
+					{"answer":"Flammability"},
+					{"answer":"Toxicity"}
+				]
+				},
+				{
+				"question":"What level of preservation is required if an aircraft is scheduled to remain idle for more than 14 days but less than 28 days?",
+				"answers":[
+					{"correct":true,"answer":"Level I"},
+					{"answer":"Level II"},
+					{"answer":"Level III"},
+					{"answer":"Level IV"}
+				]
+				},
+				{
+				"question":"In water entrapment areas of an aircraft, drains are required to be inspected how often?",
+				"answers":[
+					{"correct":true,"answer":"Daily"},
+					{"answer":"Weekly"},
+					{"answer":"Monthly"},
+					{"answer":"Bi-weekly"}
+				]
+				},
+				{
+				"question":"What item can be used to remove tarnish and light corrosion?",
+				"answers":[
+					{"correct":true,"answer":"Nylon tube brush"},
+					{"answer":"Micro Abrasive tube brush"},
+					{"answer":"Abrasive cloth"},
+					{"answer":"Abrasive mat"}
+				]
+				},
+				{
+				"question":"What item can be used to remove light to heavy corrosion?",
+				"answers":[
+					{"correct":true,"answer":"Abrasive mat "},
+					{"answer":"Non-metallic cleaning pad"},
+					{"answer":"Tampico fiber brush"},
+					{"answer":"Nylon tube brush"}
+				]
+				}
+			]
+		}
+	]
+}
