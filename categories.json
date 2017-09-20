@@ -233,7 +233,7 @@
 			{
 				"title":"Corrosive",
 				"slug": "corrosion",
-				"description": "Correctly answer all questions in Corrosion",
+				"description": "Correctly answer all questions in Corrosion Control",
 				"image": true,
 				"criteria":{
 					"stat": "isComplete('corrosion').boolean",
@@ -245,10 +245,10 @@
 	,
 	"categories":[
 		{
-			"title": "Corrosion",
+			"title": "Corrosion Control",
 			"slug": "corrosion",
 			"image": true,
-			"description": "About corrosion.",
+			"description": "Identify the types, forms, and characteristics of corrosion.  Explain the methods of removing and treating corrosion.  Recognize the materials used in the prevention of corrosion in accordance with NAVAIR 01-1A-509 1-4.",
 			"tags":[
 			],
 			"highScore": 0,
