@@ -83,10 +83,20 @@ html {
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 10px;
+  }
+}
 body {
   background: linear-gradient(to bottom, #2D3A4D 0%, #36647B 100%);
   color: white;
   font-size: 1rem;
+}
+@media only screen and (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
 }
 .animated {
   animation-duration: .5s;
@@ -187,6 +197,11 @@ header a {
   top: 0;
   right: 0;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.6);
+}
+@media only screen and (max-width: 300px) {
+  .screen-categories.header .header-title {
+    margin-top: -2px;
+  }
 }
 .screen-categories .categories-filter {
   padding: 30px 60px 0 60px;
@@ -413,991 +428,991 @@ header a {
   animation-play-state: running;
 }
 #achievementsModal .confetti:nth-child(1) {
-  transform: scale(0.91566245);
+  transform: scale(0.91201539);
   animation-name: 'animation-1';
   animation-delay: 0.2s;
-  background-color: #bf4ed;
+  background-color: #41ddb7;
 }
 @keyframes 'animation-1' {
   0% {
-    left: 74.50671862%;
+    left: 80.49785471%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 12.32592288%;
+    left: -0.35261825%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 9.10119694%;
+    left: 17.50500972%;
     transform: skew(-30deg);
   }
   75% {
-    left: 10.17072812%;
+    left: 53.01169295%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 10.00105646%;
+    left: 91.60751871%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(2) {
-  transform: scale(0.12244586);
+  transform: scale(0.41533894);
   animation-name: 'animation-2';
   animation-delay: 0.4s;
-  background-color: #65ff67;
+  background-color: #76c5a3;
 }
 @keyframes 'animation-2' {
   0% {
-    left: 48.63108079%;
+    left: 4.31498715%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 40.32354914%;
+    left: 73.21786612%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 79.41055429%;
+    left: 57.47323393%;
     transform: skew(-30deg);
   }
   75% {
-    left: 44.79879546%;
+    left: 21.293326%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 5.24088263%;
+    left: 93.63333177%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(3) {
-  transform: scale(0.7624586);
+  transform: scale(0.92185988);
   animation-name: 'animation-3';
   animation-delay: 0.6s;
-  background-color: #d2161b;
+  background-color: #de6bb1;
 }
 @keyframes 'animation-3' {
   0% {
-    left: 88.65289205%;
+    left: 94.39923867%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 36.32482966%;
+    left: 92.11146789%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 67.60687329%;
+    left: 19.29222261%;
     transform: skew(-30deg);
   }
   75% {
-    left: -4.2508327%;
+    left: 93.33234131%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 87.78094442%;
+    left: 40.17431673%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(4) {
-  transform: scale(0.56779865);
+  transform: scale(0.19218877);
   animation-name: 'animation-4';
   animation-delay: 0.8s;
-  background-color: #46c2dd;
+  background-color: #74edc0;
 }
 @keyframes 'animation-4' {
   0% {
-    left: 28.05973691%;
+    left: 29.76423973%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 62.75634396%;
+    left: 67.54769607%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 41.78758766%;
+    left: 6.69208217%;
     transform: skew(-30deg);
   }
   75% {
-    left: 87.9803284%;
+    left: 48.5177635%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 40.26576448%;
+    left: 20.07058455%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(5) {
-  transform: scale(0.06867936);
+  transform: scale(0.03431349);
   animation-name: 'animation-5';
   animation-delay: 1s;
-  background-color: #1efc6f;
+  background-color: #6e119e;
 }
 @keyframes 'animation-5' {
   0% {
-    left: 29.76819556%;
+    left: 53.33946091%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 40.11205655%;
+    left: 50.88735527%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 12.84502665%;
+    left: 53.50628124%;
     transform: skew(-30deg);
   }
   75% {
-    left: 40.24718121%;
+    left: 35.32245383%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 94.87013529%;
+    left: 12.43170797%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(6) {
-  transform: scale(0.3574298);
+  transform: scale(0.77413902);
   animation-name: 'animation-6';
   animation-delay: 1.2s;
-  background-color: #27a01c;
+  background-color: #4cd6ec;
 }
 @keyframes 'animation-6' {
   0% {
-    left: 30.69304009%;
+    left: 71.28423832%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 44.82501206%;
+    left: 97.32905337%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 27.92250859%;
+    left: 70.88362436%;
     transform: skew(-30deg);
   }
   75% {
-    left: 97.5934766%;
+    left: 1.87592304%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 25.97162385%;
+    left: 28.15003689%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(7) {
-  transform: scale(0.11103712);
+  transform: scale(0.57132831);
   animation-name: 'animation-7';
   animation-delay: 1.4s;
-  background-color: #315e3c;
+  background-color: #6dc903;
 }
 @keyframes 'animation-7' {
   0% {
-    left: 14.54314645%;
+    left: 59.34050242%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 34.00594789%;
+    left: 72.52150553%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 5.88687101%;
+    left: 91.50571006%;
     transform: skew(-30deg);
   }
   75% {
-    left: 64.56550487%;
+    left: 62.91895272%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 82.3862088%;
+    left: 85.77015182%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(8) {
-  transform: scale(0.51349268);
+  transform: scale(0.59214525);
   animation-name: 'animation-8';
   animation-delay: 1.6s;
-  background-color: #96b330;
+  background-color: #5c2219;
 }
 @keyframes 'animation-8' {
   0% {
-    left: 89.76564349%;
+    left: 72.60203678%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 41.50037641%;
+    left: 16.69810219%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 83.62300605%;
+    left: 18.78511029%;
     transform: skew(-30deg);
   }
   75% {
-    left: 27.16741211%;
+    left: 79.77911053%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 84.19277087%;
+    left: 85.17994769%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(9) {
-  transform: scale(0.12450403);
+  transform: scale(0.48278884);
   animation-name: 'animation-9';
   animation-delay: 1.8s;
-  background-color: #c3730;
+  background-color: #4c0daf;
 }
 @keyframes 'animation-9' {
   0% {
-    left: 39.02380547%;
+    left: 9.23537245%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 77.73395016%;
+    left: 17.38857716%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 63.74638338%;
+    left: 33.59860318%;
     transform: skew(-30deg);
   }
   75% {
-    left: 96.53567436%;
+    left: 59.79363731%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 19.13711827%;
+    left: 28.45197715%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(10) {
-  transform: scale(0.2728549);
+  transform: scale(0.94554738);
   animation-name: 'animation-10';
   animation-delay: 2s;
-  background-color: #2f8903;
+  background-color: #ba0db1;
 }
 @keyframes 'animation-10' {
   0% {
-    left: 24.11707062%;
+    left: 49.43072931%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 20.45727331%;
+    left: -2.72001789%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 30.24572404%;
+    left: 61.2664805%;
     transform: skew(-30deg);
   }
   75% {
-    left: 94.6159309%;
+    left: 27.18584133%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 92.66759473%;
+    left: 7.75636703%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(11) {
-  transform: scale(0.20556177);
+  transform: scale(0.74113686);
   animation-name: 'animation-11';
   animation-delay: 2.2s;
-  background-color: #9d2779;
+  background-color: #9f2e2a;
 }
 @keyframes 'animation-11' {
   0% {
-    left: 37.63014454%;
+    left: 49.47274438%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 11.55288338%;
+    left: 98.38406393%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 43.97893806%;
+    left: 9.81266234%;
     transform: skew(-30deg);
   }
   75% {
-    left: 67.82199057%;
+    left: 24.72818837%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 18.09618865%;
+    left: 35.01445779%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(12) {
-  transform: scale(0.40296853);
+  transform: scale(0.30817159);
   animation-name: 'animation-12';
   animation-delay: 2.4s;
-  background-color: #61bb60;
+  background-color: #d103a7;
 }
 @keyframes 'animation-12' {
   0% {
-    left: 93.81061905%;
+    left: 48.15280194%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 70.79728625%;
+    left: 14.68506681%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 16.42980876%;
+    left: 47.39581588%;
     transform: skew(-30deg);
   }
   75% {
-    left: 53.11666891%;
+    left: -2.88163309%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 70.42364514%;
+    left: 87.42908153%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(13) {
-  transform: scale(0.37539269);
+  transform: scale(0.97486657);
   animation-name: 'animation-13';
   animation-delay: 2.6s;
-  background-color: #7b0a10;
+  background-color: #69c6fd;
 }
 @keyframes 'animation-13' {
   0% {
-    left: 70.68684726%;
+    left: 14.15264636%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 6.13420019%;
+    left: 90.72649116%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 26.49430647%;
+    left: 4.44575171%;
     transform: skew(-30deg);
   }
   75% {
-    left: 57.7896247%;
+    left: 98.66130104%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 42.32335063%;
+    left: 68.64954757%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(14) {
-  transform: scale(0.67232326);
+  transform: scale(0.70051867);
   animation-name: 'animation-14';
   animation-delay: 2.8s;
-  background-color: #a62540;
+  background-color: #dc94ee;
 }
 @keyframes 'animation-14' {
   0% {
-    left: 29.4761227%;
+    left: 54.84503785%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 68.83564448%;
+    left: 82.81922831%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 29.87060875%;
+    left: 7.96887246%;
     transform: skew(-30deg);
   }
   75% {
-    left: 99.78045702%;
+    left: 86.28499425%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 13.41921049%;
+    left: 27.45799369%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(15) {
-  transform: scale(0.47227363);
+  transform: scale(0.32998891);
   animation-name: 'animation-15';
   animation-delay: 3s;
-  background-color: #d652be;
+  background-color: #88cae4;
 }
 @keyframes 'animation-15' {
   0% {
-    left: 8.07978967%;
+    left: 38.93772213%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 31.10339058%;
+    left: 41.80683696%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 53.66570814%;
+    left: 88.04202383%;
     transform: skew(-30deg);
   }
   75% {
-    left: 84.83369046%;
+    left: 1.08387194%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 39.33362992%;
+    left: 60.47242254%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(16) {
-  transform: scale(0.75894451);
+  transform: scale(0.36061887);
   animation-name: 'animation-16';
   animation-delay: 3.2s;
-  background-color: #3b9896;
+  background-color: #598015;
 }
 @keyframes 'animation-16' {
   0% {
-    left: 83.14791577%;
+    left: 26.66266352%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 29.5796321%;
+    left: 81.64109523%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 71.55042577%;
+    left: 92.96099256%;
     transform: skew(-30deg);
   }
   75% {
-    left: 33.55170705%;
+    left: 11.75903246%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 90.48334973%;
+    left: 29.63031394%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(17) {
-  transform: scale(0.26499619);
+  transform: scale(0.22023114);
   animation-name: 'animation-17';
   animation-delay: 3.4s;
-  background-color: #69a607;
+  background-color: #6c1196;
 }
 @keyframes 'animation-17' {
   0% {
-    left: 81.39384374%;
+    left: 63.13480235%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 9.63235696%;
+    left: 48.26368263%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 10.46388263%;
+    left: 93.85604126%;
     transform: skew(-30deg);
   }
   75% {
-    left: 70.31956403%;
+    left: 76.24302521%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 86.94267818%;
+    left: 15.95538358%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(18) {
-  transform: scale(0.31820887);
+  transform: scale(0.23328411);
   animation-name: 'animation-18';
   animation-delay: 3.6s;
-  background-color: #5a93bd;
+  background-color: #f9739;
 }
 @keyframes 'animation-18' {
   0% {
-    left: 13.77035903%;
+    left: 46.27852798%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 91.77634997%;
+    left: 44.86307372%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 64.01174754%;
+    left: 92.016063%;
     transform: skew(-30deg);
   }
   75% {
-    left: 6.7851922%;
+    left: 78.79043017%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 79.45565289%;
+    left: 91.01552678%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(19) {
-  transform: scale(0.62833111);
+  transform: scale(0.00092268);
   animation-name: 'animation-19';
   animation-delay: 3.8s;
-  background-color: #6e1eab;
+  background-color: #696623;
 }
 @keyframes 'animation-19' {
   0% {
-    left: 20.02004685%;
+    left: 66.68299496%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 4.10029841%;
+    left: 32.81191904%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 31.65710898%;
+    left: 11.43976729%;
     transform: skew(-30deg);
   }
   75% {
-    left: -4.49369794%;
+    left: 17.41902852%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 21.18327052%;
+    left: 13.58667666%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(20) {
-  transform: scale(0.53538631);
+  transform: scale(0.47989254);
   animation-name: 'animation-20';
   animation-delay: 4s;
-  background-color: #74d214;
+  background-color: #bd8aa6;
 }
 @keyframes 'animation-20' {
   0% {
-    left: 49.27456577%;
+    left: 37.18857797%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 93.9094665%;
+    left: 38.40117983%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 55.09978927%;
+    left: 21.1749608%;
     transform: skew(-30deg);
   }
   75% {
-    left: -4.48378593%;
+    left: 27.87061254%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 30.85481953%;
+    left: 89.89967936%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(21) {
-  transform: scale(0.17541115);
+  transform: scale(0.94928844);
   animation-name: 'animation-21';
   animation-delay: 4.2s;
-  background-color: #e7bb02;
+  background-color: #1c36ef;
 }
 @keyframes 'animation-21' {
   0% {
-    left: 31.12997561%;
+    left: 77.69946892%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 98.28550008%;
+    left: 32.76355754%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 46.15235486%;
+    left: 8.63316003%;
     transform: skew(-30deg);
   }
   75% {
-    left: 31.87317259%;
+    left: 5.83076066%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 84.4593051%;
+    left: 61.86352052%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(22) {
-  transform: scale(0.34150483);
+  transform: scale(0.74282212);
   animation-name: 'animation-22';
   animation-delay: 4.4s;
-  background-color: #c8fb6e;
+  background-color: #86bd27;
 }
 @keyframes 'animation-22' {
   0% {
-    left: 10.45348919%;
+    left: 7.71704072%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 75.07420545%;
+    left: 84.0849108%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 28.99544369%;
+    left: 79.41492784%;
     transform: skew(-30deg);
   }
   75% {
-    left: 18.99475117%;
+    left: 29.64086678%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 87.01909956%;
+    left: 63.71274852%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(23) {
-  transform: scale(0.27693414);
+  transform: scale(0.13501733);
   animation-name: 'animation-23';
   animation-delay: 4.6s;
-  background-color: #b88cfa;
+  background-color: #385840;
 }
 @keyframes 'animation-23' {
   0% {
-    left: 30.99468333%;
+    left: 59.78897878%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 76.3712234%;
+    left: 52.42895992%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 39.08736958%;
+    left: 28.96443894%;
     transform: skew(-30deg);
   }
   75% {
-    left: 93.83395258%;
+    left: 72.48611727%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 90.88347346%;
+    left: 19.47228786%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(24) {
-  transform: scale(0.38881113);
+  transform: scale(0.976218);
   animation-name: 'animation-24';
   animation-delay: 4.8s;
-  background-color: #ad3e8;
+  background-color: #b1cbd9;
 }
 @keyframes 'animation-24' {
   0% {
-    left: 36.41792337%;
+    left: 67.54440245%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 61.44285384%;
+    left: -3.1133275%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 39.7856263%;
+    left: 19.2121672%;
     transform: skew(-30deg);
   }
   75% {
-    left: 82.58099352%;
+    left: 66.1010819%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 58.44292731%;
+    left: 15.3957096%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(25) {
-  transform: scale(0.10900672);
+  transform: scale(0.63510813);
   animation-name: 'animation-25';
   animation-delay: 5s;
-  background-color: #7987b5;
+  background-color: #54da03;
 }
 @keyframes 'animation-25' {
   0% {
-    left: 63.93443523%;
+    left: 90.40621876%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 93.8744261%;
+    left: 23.90531598%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 0.57977237%;
+    left: 38.72720403%;
     transform: skew(-30deg);
   }
   75% {
-    left: 82.55920517%;
+    left: -1.81330468%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 17.75192659%;
+    left: 3.34889479%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(26) {
-  transform: scale(0.14745378);
+  transform: scale(0.67908368);
   animation-name: 'animation-26';
   animation-delay: 5.2s;
-  background-color: #da6bbf;
+  background-color: #ce3eff;
 }
 @keyframes 'animation-26' {
   0% {
-    left: 9.17198788%;
+    left: 83.2595318%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 8.5449827%;
+    left: 30.68557854%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 4.12076017%;
+    left: 84.5584255%;
     transform: skew(-30deg);
   }
   75% {
-    left: 8.34953131%;
+    left: 3.34717894%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 76.18677154%;
+    left: 39.53841835%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(27) {
-  transform: scale(0.57897431);
+  transform: scale(0.13014276);
   animation-name: 'animation-27';
   animation-delay: 5.4s;
-  background-color: #7b7855;
+  background-color: #4dd903;
 }
 @keyframes 'animation-27' {
   0% {
-    left: 39.81876607%;
+    left: 20.97015922%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 74.29074845%;
+    left: 79.53790272%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 94.35126776%;
+    left: 21.31783127%;
     transform: skew(-30deg);
   }
   75% {
-    left: 2.56159986%;
+    left: 24.12995626%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 68.75595889%;
+    left: 60.40257823%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(28) {
-  transform: scale(0.70654721);
+  transform: scale(0.2620289);
   animation-name: 'animation-28';
   animation-delay: 5.6s;
-  background-color: #fa03b1;
+  background-color: #b77b6f;
 }
 @keyframes 'animation-28' {
   0% {
-    left: 17.40523296%;
+    left: 47.33165725%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 64.80231998%;
+    left: 4.31589599%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 80.04973896%;
+    left: 3.83724933%;
     transform: skew(-30deg);
   }
   75% {
-    left: 25.74557808%;
+    left: 81.50553996%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 73.93944254%;
+    left: 48.97782015%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(29) {
-  transform: scale(0.3385753);
+  transform: scale(0.32876518);
   animation-name: 'animation-29';
   animation-delay: 5.8s;
-  background-color: #ecaba0;
+  background-color: #9a9edc;
 }
 @keyframes 'animation-29' {
   0% {
-    left: 52.73832213%;
+    left: 40.07679362%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 93.27742998%;
+    left: 76.35239915%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 88.37295428%;
+    left: 43.71421509%;
     transform: skew(-30deg);
   }
   75% {
-    left: 25.24947042%;
+    left: 50.02256066%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 78.77472811%;
+    left: 56.08757544%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(30) {
-  transform: scale(0.22870687);
+  transform: scale(0.61616235);
   animation-name: 'animation-30';
   animation-delay: 6s;
-  background-color: #51004c;
+  background-color: #b7db3a;
 }
 @keyframes 'animation-30' {
   0% {
-    left: 35.34529821%;
+    left: 57.8833158%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 90.97585942%;
+    left: 78.63084661%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 25.22309593%;
+    left: 37.13700489%;
     transform: skew(-30deg);
   }
   75% {
-    left: 61.895572%;
+    left: 70.70279685%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 24.04503031%;
+    left: 39.80535143%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
@@ -1553,6 +1568,20 @@ header a {
     height: 70px;
   }
 }
+@media only screen and (max-width: 300px) {
+  #categoriesModal .modal-categories-list .modal-category,
+  #achievementsModal .modal-categories-list .modal-category,
+  #categoriesModal .modal-categories-list .modal-achievement,
+  #achievementsModal .modal-categories-list .modal-achievement {
+    width: 100%;
+  }
+  #categoriesModal .modal-categories-list .modal-category h3,
+  #achievementsModal .modal-categories-list .modal-category h3,
+  #categoriesModal .modal-categories-list .modal-achievement h3,
+  #achievementsModal .modal-categories-list .modal-achievement h3 {
+    font-size: 2.25rem;
+  }
+}
 #categoriesModal .modal-achievements-list,
 #achievementsModal .modal-achievements-list {
   opacity: 0;
@@ -1572,6 +1601,12 @@ header a {
   #categoriesModal .modal-achievements-list .modal-achievement,
   #achievementsModal .modal-achievements-list .modal-achievement {
     width: 340px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #categoriesModal .modal-achievements-list .modal-achievement,
+  #achievementsModal .modal-achievements-list .modal-achievement {
+    width: 100%;
   }
 }
 #categoriesModal .modal-achievements-list .modal-achievement h1,
@@ -1680,6 +1715,11 @@ header a {
   line-height: 2.25rem;
   font-weight: 300;
 }
+@media only screen and (max-width: 300px) {
+  .category-data .category-stats .category-stat h3 {
+    font-size: 1.4rem;
+  }
+}
 .category-data .category-stats .category-stat h4 {
   margin-bottom: 0;
   font-size: 0.75rem;
@@ -1732,6 +1772,38 @@ header a {
 @media only screen and (max-width: 767px) {
   .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat {
     border: 0;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat {
+    float: none;
+    width: auto;
+    zoom: 1;
+  }
+  .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat:before,
+  .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat:after {
+    content: "";
+    display: table;
+  }
+  .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat:after {
+    clear: both;
+  }
+  .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat h1 {
+    float: left;
+    width: 15%;
+    text-align: left;
+    font-size: 32px !important;
+    line-height: 32px !important;
+    display: block;
+    margin: 0 10px 0 0;
+  }
+  .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat h4 {
+    float: left;
+    text-align: left;
+    display: block;
+    font-size: 14px !important;
+    line-height: 32px !important;
+    margin: 0;
   }
 }
 .screen-stats .stats-cumulative .stats-cumulative-stats .stats-cumulative-stat:last-child {
@@ -1790,6 +1862,11 @@ header a {
   font-size: 18px;
   color: #2d475c;
 }
+@media only screen and (max-width: 300px) {
+  .screen-stats h2 {
+    margin-bottom: 10px;
+  }
+}
 .screen-stats .stats-achievements {
   padding: 40px;
   position: relative;
@@ -1799,6 +1876,14 @@ header a {
   position: absolute;
   right: 40px;
   top: 30px;
+}
+@media only screen and (max-width: 300px) {
+  .screen-stats .stats-achievements .btn {
+    display: block;
+    position: static;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .screen-stats .stats-achievements {
@@ -1938,13 +2023,20 @@ header a {
   display: table;
   width: 100%;
   height: 424px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 @media only screen and (max-width: 767px) {
   .screen-game .game-question-wrapper,
   .screen-end .game-question-wrapper {
     height: 230px;
     padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .screen-game .game-question-wrapper,
+  .screen-end .game-question-wrapper {
+    margin-bottom: 10px;
+    height: 220px;
   }
 }
 .screen-game .game-question-wrapper .game-question,
@@ -1990,7 +2082,8 @@ header a {
   .screen-game .game-image,
   .screen-end .game-image {
     height: 200px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   .screen-game .game-image .game-question,
   .screen-end .game-image .game-question {
@@ -2037,6 +2130,21 @@ header a {
   .screen-game .game-answers .answer:nth-child(2n),
   .screen-end .game-answers .answer:nth-child(2n) {
     margin: 0;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .screen-game .game-answers .answer,
+  .screen-end .game-answers .answer {
+    width: 100%;
+    float: none;
+    height: 60px;
+    margin-right: 0;
+    margin-bottom: 1px;
+    padding: 10px 20px;
+  }
+  .screen-game .game-answers .answer:nth-child(2n),
+  .screen-end .game-answers .answer:nth-child(2n) {
+    margin-bottom: 1px;
   }
 }
 .screen-game .game-answers.clicked .answer.clicked,
@@ -2105,6 +2213,11 @@ header a {
 }
 .screen-end .flickity-viewport {
   height: 540px !important;
+}
+@media only screen and (max-width: 300px) {
+  .screen-end .flickity-viewport {
+    height: 600px !important;
+  }
 }
 .screen-end.header {
   padding-top: 30px;
@@ -2209,6 +2322,11 @@ header a {
     height: 200px;
   }
 }
+@media only screen and (max-width: 300px) {
+  .screen-end .end-history-wrapper .end-history .game-data {
+    width: 100%;
+  }
+}
 .screen-end .end-history-wrapper .end-history .game-data .game-question-wrapper {
   height: 210px;
   margin-bottom: 10px;
@@ -2220,9 +2338,20 @@ header a {
   height: 200px;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 300px) {
+  .screen-end .end-history-wrapper .end-history .game-data .game-image {
+    margin-top: 0;
+  }
+}
 .screen-end .end-history-wrapper .end-history .game-data .game-image .game-question {
   padding: 20px;
   font-size: 1rem;
+}
+@media only screen and (max-width: 300px) {
+  .screen-end .end-history-wrapper .end-history .game-data .game-image .game-question {
+    font-size: 16px;
+    padding: 10px;
+  }
 }
 .screen-end .end-history-wrapper .end-history .game-data .game-answers .answer {
   width: 205px;
@@ -2274,6 +2403,15 @@ header a {
   .screen-end .end-history-wrapper .end-history .game-data .game-answers .answer {
     width: 48%;
     margin-right: 4%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .screen-end .end-history-wrapper .end-history .game-data .game-answers .answer {
+    width: 100%;
+    float: none;
+    height: 60px;
+    margin-right: 0;
+    margin-bottom: 1px !important;
   }
 }
 .screen-end .end-footer {
