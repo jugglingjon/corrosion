@@ -428,991 +428,991 @@ header a {
   animation-play-state: running;
 }
 #achievementsModal .confetti:nth-child(1) {
-  transform: scale(0.91201539);
+  transform: scale(0.59923291);
   animation-name: 'animation-1';
   animation-delay: 0.2s;
-  background-color: #41ddb7;
+  background-color: #71b54a;
 }
 @keyframes 'animation-1' {
   0% {
-    left: 80.49785471%;
+    left: 68.81355921%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: -0.35261825%;
+    left: 93.11267157%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 17.50500972%;
+    left: 37.84743587%;
     transform: skew(-30deg);
   }
   75% {
-    left: 53.01169295%;
+    left: -3.11431018%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 91.60751871%;
+    left: 82.97169831%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(2) {
-  transform: scale(0.41533894);
+  transform: scale(0.7599775);
   animation-name: 'animation-2';
   animation-delay: 0.4s;
-  background-color: #76c5a3;
+  background-color: #3b6016;
 }
 @keyframes 'animation-2' {
   0% {
-    left: 4.31498715%;
+    left: 50.60336256%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 73.21786612%;
+    left: 22.68176359%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 57.47323393%;
+    left: 72.29924537%;
     transform: skew(-30deg);
   }
   75% {
-    left: 21.293326%;
+    left: 90.35417587%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 93.63333177%;
+    left: 82.10076349%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(3) {
-  transform: scale(0.92185988);
+  transform: scale(0.01489878);
   animation-name: 'animation-3';
   animation-delay: 0.6s;
-  background-color: #de6bb1;
+  background-color: #4da9d0;
 }
 @keyframes 'animation-3' {
   0% {
-    left: 94.39923867%;
+    left: 70.83759502%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 92.11146789%;
+    left: 1.23141585%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 19.29222261%;
+    left: 54.84409284%;
     transform: skew(-30deg);
   }
   75% {
-    left: 93.33234131%;
+    left: 50.3774469%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 40.17431673%;
+    left: 32.9835658%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(4) {
-  transform: scale(0.19218877);
+  transform: scale(0.39580376);
   animation-name: 'animation-4';
   animation-delay: 0.8s;
-  background-color: #74edc0;
+  background-color: #123908;
 }
 @keyframes 'animation-4' {
   0% {
-    left: 29.76423973%;
+    left: 24.05013609%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 67.54769607%;
+    left: -1.03308835%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 6.69208217%;
+    left: 12.35249792%;
     transform: skew(-30deg);
   }
   75% {
-    left: 48.5177635%;
+    left: 63.17109472%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 20.07058455%;
+    left: 86.73468709%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(5) {
-  transform: scale(0.03431349);
+  transform: scale(0.54666139);
   animation-name: 'animation-5';
   animation-delay: 1s;
-  background-color: #6e119e;
+  background-color: #7a1cd;
 }
 @keyframes 'animation-5' {
   0% {
-    left: 53.33946091%;
+    left: 87.03407354%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 50.88735527%;
+    left: 87.05470722%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 53.50628124%;
+    left: 0.56453965%;
     transform: skew(-30deg);
   }
   75% {
-    left: 35.32245383%;
+    left: -3.88963107%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 12.43170797%;
+    left: 91.76908707%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(6) {
-  transform: scale(0.77413902);
+  transform: scale(0.64344608);
   animation-name: 'animation-6';
   animation-delay: 1.2s;
-  background-color: #4cd6ec;
+  background-color: #e2e416;
 }
 @keyframes 'animation-6' {
   0% {
-    left: 71.28423832%;
+    left: 26.1191232%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 97.32905337%;
+    left: 1.67016128%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 70.88362436%;
+    left: 85.33734441%;
     transform: skew(-30deg);
   }
   75% {
-    left: 1.87592304%;
+    left: 74.80626603%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 28.15003689%;
+    left: 44.43656632%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(7) {
-  transform: scale(0.57132831);
+  transform: scale(0.83356345);
   animation-name: 'animation-7';
   animation-delay: 1.4s;
-  background-color: #6dc903;
+  background-color: #fd400b;
 }
 @keyframes 'animation-7' {
   0% {
-    left: 59.34050242%;
+    left: 85.5152372%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 72.52150553%;
+    left: 14.08669337%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 91.50571006%;
+    left: 71.87442849%;
     transform: skew(-30deg);
   }
   75% {
-    left: 62.91895272%;
+    left: 58.97683354%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 85.77015182%;
+    left: 14.44780895%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(8) {
-  transform: scale(0.59214525);
+  transform: scale(0.47564217);
   animation-name: 'animation-8';
   animation-delay: 1.6s;
-  background-color: #5c2219;
+  background-color: #152363;
 }
 @keyframes 'animation-8' {
   0% {
-    left: 72.60203678%;
+    left: 22.96345349%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 16.69810219%;
+    left: 78.94184885%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 18.78511029%;
+    left: 67.45088344%;
     transform: skew(-30deg);
   }
   75% {
-    left: 79.77911053%;
+    left: 80.5406786%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 85.17994769%;
+    left: 16.89931408%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(9) {
-  transform: scale(0.48278884);
+  transform: scale(0.46731734);
   animation-name: 'animation-9';
   animation-delay: 1.8s;
-  background-color: #4c0daf;
+  background-color: #fbcde4;
 }
 @keyframes 'animation-9' {
   0% {
-    left: 9.23537245%;
+    left: 50.20451187%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 17.38857716%;
+    left: 14.54589639%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 33.59860318%;
+    left: 8.69678308%;
     transform: skew(-30deg);
   }
   75% {
-    left: 59.79363731%;
+    left: 68.40421743%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 28.45197715%;
+    left: 92.56145299%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(10) {
-  transform: scale(0.94554738);
+  transform: scale(0.6478724);
   animation-name: 'animation-10';
   animation-delay: 2s;
-  background-color: #ba0db1;
+  background-color: #75d40b;
 }
 @keyframes 'animation-10' {
   0% {
-    left: 49.43072931%;
+    left: 21.8189753%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: -2.72001789%;
+    left: 31.23026441%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 61.2664805%;
+    left: 28.083049%;
     transform: skew(-30deg);
   }
   75% {
-    left: 27.18584133%;
+    left: 94.87398252%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 7.75636703%;
+    left: 52.61048193%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(11) {
-  transform: scale(0.74113686);
+  transform: scale(0.41308795);
   animation-name: 'animation-11';
   animation-delay: 2.2s;
-  background-color: #9f2e2a;
+  background-color: #c0af11;
 }
 @keyframes 'animation-11' {
   0% {
-    left: 49.47274438%;
+    left: 72.30744484%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 98.38406393%;
+    left: 93.04736227%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 9.81266234%;
+    left: 47.66148336%;
     transform: skew(-30deg);
   }
   75% {
-    left: 24.72818837%;
+    left: 20.27355692%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 35.01445779%;
+    left: 87.06145002%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(12) {
-  transform: scale(0.30817159);
+  transform: scale(0.92299187);
   animation-name: 'animation-12';
   animation-delay: 2.4s;
-  background-color: #d103a7;
+  background-color: #b32b91;
 }
 @keyframes 'animation-12' {
   0% {
-    left: 48.15280194%;
+    left: 52.8780613%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 14.68506681%;
+    left: 49.65523624%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 47.39581588%;
+    left: 67.89298965%;
     transform: skew(-30deg);
   }
   75% {
-    left: -2.88163309%;
+    left: 27.14604629%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 87.42908153%;
+    left: 41.25085442%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(13) {
-  transform: scale(0.97486657);
+  transform: scale(0.89304208);
   animation-name: 'animation-13';
   animation-delay: 2.6s;
-  background-color: #69c6fd;
+  background-color: #2323d8;
 }
 @keyframes 'animation-13' {
   0% {
-    left: 14.15264636%;
+    left: 53.254037%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 90.72649116%;
+    left: 44.73387735%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 4.44575171%;
+    left: 94.46516115%;
     transform: skew(-30deg);
   }
   75% {
-    left: 98.66130104%;
+    left: 97.41625635%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 68.64954757%;
+    left: 37.3471927%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(14) {
-  transform: scale(0.70051867);
+  transform: scale(0.27492751);
   animation-name: 'animation-14';
   animation-delay: 2.8s;
-  background-color: #dc94ee;
+  background-color: #504722;
 }
 @keyframes 'animation-14' {
   0% {
-    left: 54.84503785%;
+    left: 7.91933345%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 82.81922831%;
+    left: 67.14825044%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 7.96887246%;
+    left: 64.15327045%;
     transform: skew(-30deg);
   }
   75% {
-    left: 86.28499425%;
+    left: -0.64047331%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 27.45799369%;
+    left: 39.88845208%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(15) {
-  transform: scale(0.32998891);
+  transform: scale(0.47853791);
   animation-name: 'animation-15';
   animation-delay: 3s;
-  background-color: #88cae4;
+  background-color: #45a881;
 }
 @keyframes 'animation-15' {
   0% {
-    left: 38.93772213%;
+    left: 54.97362706%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 41.80683696%;
+    left: 85.3685456%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 88.04202383%;
+    left: 67.99796864%;
     transform: skew(-30deg);
   }
   75% {
-    left: 1.08387194%;
+    left: 37.02182779%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 60.47242254%;
+    left: 51.00610424%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(16) {
-  transform: scale(0.36061887);
+  transform: scale(0.6189064);
   animation-name: 'animation-16';
   animation-delay: 3.2s;
-  background-color: #598015;
+  background-color: #e27cdc;
 }
 @keyframes 'animation-16' {
   0% {
-    left: 26.66266352%;
+    left: 1.81974399%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 81.64109523%;
+    left: 6.15948673%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 92.96099256%;
+    left: 75.58855033%;
     transform: skew(-30deg);
   }
   75% {
-    left: 11.75903246%;
+    left: 82.15055388%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 29.63031394%;
+    left: 64.98886886%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(17) {
-  transform: scale(0.22023114);
+  transform: scale(0.30460814);
   animation-name: 'animation-17';
   animation-delay: 3.4s;
-  background-color: #6c1196;
+  background-color: #2e563c;
 }
 @keyframes 'animation-17' {
   0% {
-    left: 63.13480235%;
+    left: 92.72931013%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 48.26368263%;
+    left: 38.5172243%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 93.85604126%;
+    left: 87.52871132%;
     transform: skew(-30deg);
   }
   75% {
-    left: 76.24302521%;
+    left: 88.27676273%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 15.95538358%;
+    left: 55.72803923%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(18) {
-  transform: scale(0.23328411);
+  transform: scale(0.01832622);
   animation-name: 'animation-18';
   animation-delay: 3.6s;
-  background-color: #f9739;
+  background-color: #decade;
 }
 @keyframes 'animation-18' {
   0% {
-    left: 46.27852798%;
+    left: 26.67632102%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 44.86307372%;
+    left: 36.66132376%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 92.016063%;
+    left: 61.35560983%;
     transform: skew(-30deg);
   }
   75% {
-    left: 78.79043017%;
+    left: 86.90654324%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 91.01552678%;
+    left: 1.34282556%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(19) {
-  transform: scale(0.00092268);
+  transform: scale(0.48799977);
   animation-name: 'animation-19';
   animation-delay: 3.8s;
-  background-color: #696623;
+  background-color: #632753;
 }
 @keyframes 'animation-19' {
   0% {
-    left: 66.68299496%;
+    left: 26.91230283%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 32.81191904%;
+    left: 35.71759944%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 11.43976729%;
+    left: 21.94276263%;
     transform: skew(-30deg);
   }
   75% {
-    left: 17.41902852%;
+    left: 95.28937097%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 13.58667666%;
+    left: 65.1188619%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(20) {
-  transform: scale(0.47989254);
+  transform: scale(0.24878895);
   animation-name: 'animation-20';
   animation-delay: 4s;
-  background-color: #bd8aa6;
+  background-color: #abfaf4;
 }
 @keyframes 'animation-20' {
   0% {
-    left: 37.18857797%;
+    left: 85.09989651%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 38.40117983%;
+    left: 24.44372298%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 21.1749608%;
+    left: 17.57769977%;
     transform: skew(-30deg);
   }
   75% {
-    left: 27.87061254%;
+    left: -2.21853881%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 89.89967936%;
+    left: 57.49969184%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(21) {
-  transform: scale(0.94928844);
+  transform: scale(0.10049736);
   animation-name: 'animation-21';
   animation-delay: 4.2s;
-  background-color: #1c36ef;
+  background-color: #752e0c;
 }
 @keyframes 'animation-21' {
   0% {
-    left: 77.69946892%;
+    left: 86.22066561%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 32.76355754%;
+    left: -4.99445228%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 8.63316003%;
+    left: 82.0753282%;
     transform: skew(-30deg);
   }
   75% {
-    left: 5.83076066%;
+    left: 19.87098284%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 61.86352052%;
+    left: 16.52207889%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(22) {
-  transform: scale(0.74282212);
+  transform: scale(0.29269735);
   animation-name: 'animation-22';
   animation-delay: 4.4s;
-  background-color: #86bd27;
+  background-color: #b0f9ee;
 }
 @keyframes 'animation-22' {
   0% {
-    left: 7.71704072%;
+    left: 83.66732826%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 84.0849108%;
+    left: 1.59515448%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 79.41492784%;
+    left: 43.88353942%;
     transform: skew(-30deg);
   }
   75% {
-    left: 29.64086678%;
+    left: 17.29662239%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 63.71274852%;
+    left: 53.66459864%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(23) {
-  transform: scale(0.13501733);
+  transform: scale(0.16376355);
   animation-name: 'animation-23';
   animation-delay: 4.6s;
-  background-color: #385840;
+  background-color: #3c20ef;
 }
 @keyframes 'animation-23' {
   0% {
-    left: 59.78897878%;
+    left: 79.96338107%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 52.42895992%;
+    left: 20.95374175%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 28.96443894%;
+    left: 84.05247001%;
     transform: skew(-30deg);
   }
   75% {
-    left: 72.48611727%;
+    left: 82.66953773%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 19.47228786%;
+    left: 18.16260563%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(24) {
-  transform: scale(0.976218);
+  transform: scale(0.862174);
   animation-name: 'animation-24';
   animation-delay: 4.8s;
-  background-color: #b1cbd9;
+  background-color: #975878;
 }
 @keyframes 'animation-24' {
   0% {
-    left: 67.54440245%;
+    left: 25.14619095%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: -3.1133275%;
+    left: 47.71337136%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 19.2121672%;
+    left: 74.44668204%;
     transform: skew(-30deg);
   }
   75% {
-    left: 66.1010819%;
+    left: 16.81485668%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 15.3957096%;
+    left: 66.07191568%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(25) {
-  transform: scale(0.63510813);
+  transform: scale(0.77730825);
   animation-name: 'animation-25';
   animation-delay: 5s;
-  background-color: #54da03;
+  background-color: #fbd1c4;
 }
 @keyframes 'animation-25' {
   0% {
-    left: 90.40621876%;
+    left: 73.79063681%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 23.90531598%;
+    left: 17.44531156%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 38.72720403%;
+    left: 76.49363417%;
     transform: skew(-30deg);
   }
   75% {
-    left: -1.81330468%;
+    left: 86.09571185%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 3.34889479%;
+    left: 52.83103797%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(26) {
-  transform: scale(0.67908368);
+  transform: scale(0.92853987);
   animation-name: 'animation-26';
   animation-delay: 5.2s;
-  background-color: #ce3eff;
+  background-color: #2b9b5d;
 }
 @keyframes 'animation-26' {
   0% {
-    left: 83.2595318%;
+    left: 65.19351621%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 30.68557854%;
+    left: 34.82484427%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 84.5584255%;
+    left: 24.29312048%;
     transform: skew(-30deg);
   }
   75% {
-    left: 3.34717894%;
+    left: 21.50987621%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 39.53841835%;
+    left: 75.31543181%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(27) {
-  transform: scale(0.13014276);
+  transform: scale(0.94498594);
   animation-name: 'animation-27';
   animation-delay: 5.4s;
-  background-color: #4dd903;
+  background-color: #80589d;
 }
 @keyframes 'animation-27' {
   0% {
-    left: 20.97015922%;
+    left: 50.40072469%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 79.53790272%;
+    left: 3.2203188%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 21.31783127%;
+    left: 32.05611442%;
     transform: skew(-30deg);
   }
   75% {
-    left: 24.12995626%;
+    left: 98.07673873%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 60.40257823%;
+    left: 87.00050697%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(28) {
-  transform: scale(0.2620289);
+  transform: scale(0.91547507);
   animation-name: 'animation-28';
   animation-delay: 5.6s;
-  background-color: #b77b6f;
+  background-color: #ff3512;
 }
 @keyframes 'animation-28' {
   0% {
-    left: 47.33165725%;
+    left: 48.51608189%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 4.31589599%;
+    left: 39.54337287%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 3.83724933%;
+    left: 38.49965435%;
     transform: skew(-30deg);
   }
   75% {
-    left: 81.50553996%;
+    left: 54.39929438%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 48.97782015%;
+    left: 38.15698051%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(29) {
-  transform: scale(0.32876518);
+  transform: scale(0.66869162);
   animation-name: 'animation-29';
   animation-delay: 5.8s;
-  background-color: #9a9edc;
+  background-color: #b4d7f3;
 }
 @keyframes 'animation-29' {
   0% {
-    left: 40.07679362%;
+    left: 75.29975434%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 76.35239915%;
+    left: 40.79866871%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 43.71421509%;
+    left: 16.04156339%;
     transform: skew(-30deg);
   }
   75% {
-    left: 50.02256066%;
+    left: 66.95158905%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 56.08757544%;
+    left: 37.74993312%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
 }
 #achievementsModal .confetti:nth-child(30) {
-  transform: scale(0.61616235);
+  transform: scale(0.5255826);
   animation-name: 'animation-30';
   animation-delay: 6s;
-  background-color: #b7db3a;
+  background-color: #5c9d83;
 }
 @keyframes 'animation-30' {
   0% {
-    left: 57.8833158%;
+    left: 73.42520871%;
     top: -5%;
     opacity: 1.0;
     transform: skew(-30deg);
   }
   25% {
-    left: 78.63084661%;
+    left: 77.5323489%;
     transform: skew(30deg);
     opacity: 1;
   }
   50% {
-    left: 37.13700489%;
+    left: 60.42791287%;
     transform: skew(-30deg);
   }
   75% {
-    left: 70.70279685%;
+    left: 8.93679357%;
     transform: skew(30deg);
   }
   100% {
     top: 100%;
-    left: 39.80535143%;
+    left: 82.99217958%;
     opacity: 0.0;
     transform: skew(-30deg);
   }
@@ -1537,7 +1537,7 @@ header a {
   #achievementsModal .modal-categories-list .modal-category,
   #categoriesModal .modal-categories-list .modal-achievement,
   #achievementsModal .modal-categories-list .modal-achievement {
-    width: 340px;
+    width: calc(100% - 20px);
     padding: 20px;
   }
   #categoriesModal .modal-categories-list .modal-category .category-description,
@@ -2028,7 +2028,7 @@ header a {
 @media only screen and (max-width: 767px) {
   .screen-game .game-question-wrapper,
   .screen-end .game-question-wrapper {
-    height: 230px;
+    height: 200px;
     padding-top: 60px;
   }
 }
@@ -2052,7 +2052,7 @@ header a {
 @media only screen and (max-width: 767px) {
   .screen-game .game-question-wrapper .game-question,
   .screen-end .game-question-wrapper .game-question {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     padding: 0 10px;
   }
 }
@@ -2122,14 +2122,16 @@ header a {
 @media only screen and (max-width: 767px) {
   .screen-game .game-answers .answer,
   .screen-end .game-answers .answer {
-    width: 48%;
-    height: 150px;
-    margin-right: 4%;
-    font-size: 1.75rem;
+    width: calc(50% - 10px);
+    height: 130px;
+    margin-right: 20px;
+    font-size: 1.375rem;
+    padding: 20px 10px;
+    overflow: hidden;
   }
   .screen-game .game-answers .answer:nth-child(2n),
   .screen-end .game-answers .answer:nth-child(2n) {
-    margin: 0;
+    margin-right: 0;
   }
 }
 @media only screen and (max-width: 300px) {
@@ -2401,8 +2403,11 @@ header a {
     padding: 10px;
   }
   .screen-end .end-history-wrapper .end-history .game-data .game-answers .answer {
-    width: 48%;
-    margin-right: 4%;
+    width: calc(50% - 10px);
+    margin-right: 20px;
+  }
+  .screen-end .end-history-wrapper .end-history .game-data .game-answers .answer:nth-child(2n) {
+    margin-right: 0px;
   }
 }
 @media only screen and (max-width: 300px) {
