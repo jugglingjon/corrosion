@@ -21,7 +21,7 @@ var $data,
 	$localKey='corrosionTriviaData',
 	$currentScreen='screen-categories',
 	$lastScreen='screen-categories',
-	$version='2.3';
+	$version='2.4';
 
 var $startTime,
 	$questionTimer,
@@ -669,8 +669,31 @@ function init(data){
 
 $(document).ready(function(){
 
+	
+
+	//zendesk if online
+	zE(function() {
+		zE.hide();
+		$('.footer').append($(' <a href="#" onclick="zE.activate({hideOnClose: true});">Feedback</a>'));
+	});
+
 	//populate version number
-	$('#version').text('v'+$version);
+	$('#version').append(' v'+$version+' ');
+
+	//disclaimer when new
+	if(localStorage.newCorrosionUser){
+		//$('#helpModal').modal();
+	}
+	else{
+		$('#disclaimerModal').modal({
+		    backdrop: 'static',
+		    keyboard: false
+		});
+		$('#disclaimer').on('hidden.bs.modal',function(){
+			//$('#helpModal').modal();
+		});
+		localStorage.newCorrosionUser=true;
+	}
 
 	//implement fastclick
 	FastClick.attach(document.body);

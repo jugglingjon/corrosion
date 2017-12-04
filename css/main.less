@@ -340,9 +340,14 @@ header{
 
 }
 
-#version{
+.footer{
 	text-align:center;
 	opacity: .4;
+
+	a{
+		color:white;
+		text-decoration: underline;
+	}
 }
 
 .categories-list{
@@ -572,6 +577,78 @@ header{
 	-webkit-transform: translate(0);
 	-moz-transform: translate(0);
 	transform: translate(0);
+}
+
+.modal.fullScreen{
+	.btn-close{
+		z-index:999;
+		position: fixed;
+		top: @basePadding;
+		right: @basePadding;
+		width: 80px;
+		height: 80px;
+	
+		text-align: center;
+		border-radius: 50%;
+		line-height: 60px;
+		color:@text;
+		font-size: 60px;
+
+		@media @smartphones{
+			right:6px;
+		}
+	}
+	.modal-content{
+		background-color:transparent;
+		box-shadow:none;
+		border:0;
+		color:white;
+	}
+
+	.modal-header{
+		display:none;
+	}
+
+	.modal-footer{
+		border:0;
+	}
+}
+
+#emergencyModal{
+	h1{
+		text-align:center;
+		margin-bottom:40px;
+
+	}
+	.emergency-listing{
+
+		border-bottom: 1px solid rgba(255,255,255,.4);
+		text-align:center;
+		padding: 18px 0;
+		font-size:1rem;
+
+		&:last-child{
+			border:0;
+		}
+		
+		h3{
+			font-size:1.5rem;
+			margin:0;
+		}
+
+		.emergency-listing-phone,.emergency-listing-link{
+			display:block;
+			font-size: 18px;
+			margin:10px;
+			text-decoration:underline;
+		}
+		.emergency-listing-phone{
+			
+		}
+		.emergency-listing-link{
+			
+		}
+	}
 }
 
 #achievementsModal{
