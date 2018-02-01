@@ -104,7 +104,7 @@ Examples:
 @lessPadding: 20px;
 
 @smartphones: ~"only screen and (max-width: 767px)";
-@smallphones: ~"only screen and (max-width: 300px)";
+@smallphones: ~"only screen and (max-width: 360px)";
 
 // ====================================
 // 				^Fonts
@@ -597,6 +597,7 @@ header{
 		@media @smartphones{
 			right:6px;
 		}
+
 	}
 	.modal-content{
 		background-color:transparent;
@@ -746,6 +747,14 @@ header{
 		@media @smartphones{
 			right:6px;
 		}
+
+		@media @smallphones{
+			font-size: 30px;
+			line-height: 30px;
+			width: 30px;
+			height: 30px;
+			top:10px;
+		}
 	}
 
 	.modal-dialog,.modal-content,.modal-body{
@@ -760,6 +769,10 @@ header{
 
 		@media @smartphones{
 			top:110px;
+		}
+
+		@media @smallphones{
+			top:50px;
 		}
 	}
 
@@ -989,6 +1002,10 @@ header{
 
 	.category-stats{
 		margin: @basePadding 0;
+
+		@media @smallphones{
+			margin: 10px 0;
+		}
 
 		.category-stat{
 			width: 33.33333%;
