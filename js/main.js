@@ -21,7 +21,7 @@ var $data,
 	$localKey='corrosionTriviaData',
 	$currentScreen='screen-categories',
 	$lastScreen='screen-categories',
-	$version='2.5';
+	$version='2.6';
 
 var $startTime,
 	$questionTimer,
@@ -667,15 +667,20 @@ function init(data){
 	
 }
 
+function failAlert(){
+	alert('Unable to connect to Zendesk service, please connect to a wireless network and restart the app');
+}
+
 $(document).ready(function(){
 
 	
-
+	$('.footer').append($(' <a href="#" id="zendeskLink" onclick="failAlert();">Feedback</a>'));
 	//zendesk if online
 	zE(function() {
 		zE.hide();
-		$('.footer').append($(' <a href="#" onclick="zE.activate({hideOnClose: true});">Feedback</a>'));
+		$('#zendeskLink').attr('onclick','zE.activate({hideOnClose: true});')
 	});
+
 
 	//populate version number
 	$('#version').append(' v'+$version+' ');
