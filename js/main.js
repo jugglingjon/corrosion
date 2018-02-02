@@ -21,7 +21,7 @@ var $data,
 	$localKey='corrosionTriviaData',
 	$currentScreen='screen-categories',
 	$lastScreen='screen-categories',
-	$version='2.6';
+	$version='2.7';
 
 var $startTime,
 	$questionTimer,

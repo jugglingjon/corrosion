@@ -5,7 +5,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.navy.corrosion"
     versionCode = "10" 
-    version     = "2.6" >
+    version     = "2.7" >
 
     <name>Aviation Corrosion Challenge</name>
 
